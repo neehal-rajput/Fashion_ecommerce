@@ -8,9 +8,10 @@ const LoginSignup = () => {
           <div className="form-section">
           <p className='signup'>Sign Up</p>
           <form className="inputs">
-            <input type="text" required/>
+            <p>Enter your email</p>
             <input type="email" name="" id="" required/>
-            <input type="password" required />
+            <label className='label '> Password </label>
+            <input type="password" required /> 
             <button type='submit'>Continue</button>
           </form>
           <p className='login'>Already have an account?<span>Login here</span></p>
